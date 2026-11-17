@@ -254,11 +254,11 @@ void usercontrol(void) {
     // Assing Left and Right buttons to claw intake control
     if (Controller.ButtonLeft.pressing())
     {
-      ClawMotor.spin(fwd, 12, volt);
+      ClawMotor.spin(fwd, 4, volt);
     }
     else if (Controller.ButtonRight.pressing())
     {
-      ClawMotor.spin(reverse, 12, volt);
+      ClawMotor.spin(reverse, 4, volt);
     }
     else
     {
